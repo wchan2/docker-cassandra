@@ -1,8 +1,7 @@
 FROM ubuntu
 MAINTAINER William Chan <wchan@shopkeep.com>
 
-RUN apt-get update
-RUN apt-get install -y build-essential curl openjdk-7-jdk
+RUN apt-get update && apt-get install -y build-essential curl openjdk-7-jdk
 
 ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
 
