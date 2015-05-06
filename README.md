@@ -1,6 +1,6 @@
 ## A Docker Container for Cassandra
 
-A Docker container for a C*. The current version is installs Cassandra 2.1.4.
+A Docker container for a C*. The current version installs Cassandra 2.1.4.
 
 ### Building the image
 
