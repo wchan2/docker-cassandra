@@ -11,6 +11,6 @@ docker build -t cassandra-container .
 ### Running the image
 
 ```
-docker run -p 9042:9042 -td cassandra-container:latest
+docker run -p 9042:9042 --name cassandra-1 -td cassandra-container
 ```
 
