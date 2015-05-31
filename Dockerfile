@@ -1,9 +1,5 @@
-FROM ubuntu
+FROM java:8
 MAINTAINER William Chan <wchan@shopkeep.com>
-
-RUN apt-get update && apt-get install -y build-essential openjdk-7-jdk
-
-ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
 
 RUN mkdir -p /opt/downloads
 
